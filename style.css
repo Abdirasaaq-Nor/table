@@ -1,0 +1,178 @@
+.section_1 {
+  margin: 2px 20px 0px 20px;
+}
+.date {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
+.heading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divided_two {
+  /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+  display: flex;
+  margin-left: 300px;
+}
+.sec_1 {
+  margin-left: 40px;
+}
+table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+.sec_2 {
+  margin-left: 30px;
+}
+.sec_1 td {
+  width: 250px;
+  height: 30px;
+}
+
+.sec_2 td {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 30px;
+}
+
+/* ...................  table three */
+.right_side {
+  display: flex;
+  justify-content: center;
+  margin-left: 370px;
+  margin-top: 20px;
+}
+.right_side th {
+  width: 110px;
+}
+.right_side td {
+  height: 30px;
+  width: 110px;
+}
+
+/* .......................... table four........... */
+.table_four {
+  margin-left: 275px;
+  margin-top: 10px;
+}
+.table_four th {
+  width: 130px;
+  height: 10px;
+  font-weight: bold;
+}
+
+.tr_td_wid td {
+  height: 20px;
+}
+
+/* ............................... responsitive mobile  */
+
+@media only screen and (max-width: 600px) {
+  .divided_two {
+    /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  .sec_2 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .sec_2 td {
+    display: flex;
+    flex-direction: row;
+    width: 214px;
+    height: 30px;
+  }
+  /* ...................  table three */
+  .right_side {
+    display: flex;
+
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .right_side th {
+    width: 110px;
+  }
+  .right_side td {
+    height: 30px;
+    width: 110px;
+  }
+
+  /* .......................... table four........... */
+  .table_four {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .table_four th {
+    width: 130px;
+    height: 10px;
+    font-weight: bold;
+  }
+
+  .tr_td_wid td {
+    height: 20px;
+  }
+}
+
+/* ................................................................ media query for big mobile ........ */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .divided_two {
+    /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  .sec_2 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .sec_2 td {
+    display: flex;
+    flex-direction: row;
+    width: 214px;
+    height: 30px;
+  }
+  .right_side {
+    display: flex;
+
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .right_side th {
+    width: 110px;
+  }
+  .right_side td {
+    height: 30px;
+    width: 110px;
+  }
+
+  /* .......................... table four........... */
+  .table_four {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .table_four th {
+    width: 130px;
+    height: 10px;
+    font-weight: bold;
+  }
+
+  .tr_td_wid td {
+    height: 20px;
+  }
+}
